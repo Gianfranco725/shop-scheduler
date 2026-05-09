@@ -2,7 +2,7 @@ import Button from "../ui/Button";
 
 export default function HeroSection() {
   return (
-    <header className="">
+    <header>
       <div className="flex justify-between px-4 sm:px-12 xl:px-16 2xl:px-30 py-2 bg-[#C3C3C3]">
         <p className="text-[11px] sm:text-base">39 US-206, Augusta, NJ 07822</p>
         <p className="text-[11px] sm:text-base">+1 (222)-333-4444</p>
