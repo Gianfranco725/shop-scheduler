@@ -1,3 +1,5 @@
+import Button from "../ui/Button";
+
 export default function HeroSection() {
   return (
     <header className="">
@@ -17,7 +19,7 @@ export default function HeroSection() {
           <li className="hidden xl:block">CONTACT</li>
           <li className="hidden xl:block">ABOUT US</li>
         </ul>
-        <button className="w-47.5">Services Button</button>
+        <Button content="My Booking" customStyle="w-47.5" />
       </nav>
       <div className="video-placeholder flex items-end justify-center px-4 sm:px-26 py-10 md:py-20 h-180 md:h-206.25 mx-4 bg-[#949494] rounded-lg">
         <div className="flex flex-col gap-8 md:max-w-198.75">
@@ -36,12 +38,8 @@ export default function HeroSection() {
           </p>
 
           <div className="flex justify-center gap-4">
-            <button className="py-4 px-6 rounded-full bg-white text-lg">
-              View our Services
-            </button>
-            <button className="py-4 px-6 rounded-full bg-white text-lg">
-              Call Now
-            </button>
+            <Button content="My Booking" />
+            <Button content="View our Services" />
           </div>
         </div>
       </div>
