@@ -7,7 +7,7 @@ export default function HeroSection() {
         <p className="text-[11px] sm:text-base">39 US-206, Augusta, NJ 07822</p>
         <p className="text-[11px] sm:text-base">+1 (222)-333-4444</p>
       </div>
-      <nav className="flex justify-between px-4 xl:px-16 2xl:px-30 py-6">
+      <nav className="flex justify-between items-center px-4 xl:px-16 2xl:px-30 py-6">
         <div className="w-47.5">Logo Placeholder</div>
         <ul className="hidden md:flex gap-6">
           <li>HOME</li>
