@@ -5,7 +5,7 @@ export default function Accordion() {
   const [accordionOpen, setAccordionOpen] = useState(false);
 
   return (
-    <div className="accordion grid container px-4 py-6 bg-zinc-200 overflow-hidden border-b-2 border-zinc-300">
+    <div className="accordion grid px-4 py-6 bg-zinc-200 overflow-hidden border-b-2 border-zinc-300">
       <button
         className="flex justify-between items-center gap-4 cursor-pointer bg-gray-100"
         onClick={() => setAccordionOpen(!accordionOpen)}
