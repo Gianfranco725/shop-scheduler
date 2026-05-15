@@ -1,7 +1,7 @@
 import AboutUsSection from "./components/sections/AboutUsSection";
+import FaqsSection from "./components/sections/FaqsSection";
 import ServiceSection from "./components/sections/ServicesSection";
 import TestimonialSection from "./components/sections/TestimonialSection";
-import Accordion from "./components/ui/Accordion";
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
       <AboutUsSection />
       <ServiceSection />
       <TestimonialSection />
-      <Accordion />
+      <FaqsSection />
     </main>
   );
 }
